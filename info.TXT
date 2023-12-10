@@ -1,0 +1,14 @@
+uses API search to find tv show from this API 
+what is use ? : 
+	async await : to make the function wait to the result of the request, 
+	axios.get (need to download first) : to find API and convert to json,  
+	addEventListener : to make the button run the code after we submit the form(we type the search button),
+	e.preventDefualt : to stop the defualt behavior (submitting the form will make the page change otherwise),
+	const config = {params:{q: searchterm , ...}} : will make it easier to search and controll more terms.
+	
+how to improve : 1. delete the images after the search
+		 2. add try and catch for better error handling
+		 3. space between images
+		 4. make the respond before clicking the button (use event listener)
+
+refrence : udemy section 28
